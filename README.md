@@ -11,6 +11,13 @@ dsh plugin --profile web add "file:$HOME/dsh-clipboard-history"
 dsh web   # 重启使 profile 生效
 ```
 
+或直接从 GitHub 安装：
+
+```sh
+dsh plugin --profile web add github:qqyumidi/dsh-clipboard-history
+dsh web
+```
+
 卸载：
 
 ```sh
