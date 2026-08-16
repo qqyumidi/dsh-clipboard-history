@@ -1,0 +1,7 @@
+# dsh-clipboard-history: monitor the system clipboard and keep a searchable
+# history with a Web panel and agent tools.
+#
+# Inserted into the web profile by `dsh plugin --profile web add <this repo>`.
+- insert:
+    - id: clipboard-history
+      name: '@dsh-external/dsh-clipboard-history'

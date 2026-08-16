@@ -1,0 +1,34 @@
+{
+  "name": "@dsh-external/dsh-clipboard-history",
+  "version": "0.1.0",
+  "description": "Monitor the system clipboard, persist history, provide a searchable panel and agent tools.",
+  "private": true,
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "dsh-plugin",
+    "clipboard",
+    "history"
+  ],
+  "license": "MIT"
+}
