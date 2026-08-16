@@ -1,7 +1,7 @@
 {
   "name": "@dsh-external/dsh-clipboard-history",
   "version": "0.1.0",
-  "description": "Monitor the system clipboard, persist history, provide a searchable panel and agent tools.",
+  "description": "Monitor the system clipboard and keep a searchable persisted history with a Web panel and agent tools for DeepSeek Harness (DSH).",
   "private": true,
   "type": "module",
   "main": "./lib/index.js",
@@ -34,5 +34,13 @@
   "scripts": {
     "smoke": "node scripts/smoke.mjs",
     "check": "node --check lib/index.js && node --check lib/client.js"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qqyumidi/dsh-clipboard-history.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://github.com/qqyumidi/dsh-clipboard-history"
 }
