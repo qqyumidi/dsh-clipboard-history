@@ -30,5 +30,9 @@
     "clipboard",
     "history"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "smoke": "node scripts/smoke.mjs",
+    "check": "node --check lib/index.js && node --check lib/client.js"
+  }
 }
